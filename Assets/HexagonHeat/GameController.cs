@@ -18,7 +18,7 @@ public class GameController : MonoBehaviour {
 	void Update () {
 		
 		if (!dropped){
-			int random = Random.Range(0,6)
+			int random = Random.Range(0,6);
 		}
 	
 	}
