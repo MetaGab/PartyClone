@@ -8,6 +8,8 @@ public class GameController : MonoBehaviour {
 	[SerializeField]
 	private GameObject[] floors = new GameObject[7];
 
+	bool dropped = false;
+
 	void Start () {
 		
 	}
@@ -15,5 +17,9 @@ public class GameController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
+		if (!dropped){
+			int random = Random.Range(0,6)
+		}
+	
 	}
 }
