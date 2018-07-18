@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class colision : MonoBehaviour {
 
-	     void OnCollisionEnter(Collision col)
+	     void  OnCollisionEnter(Collision col)
     										 {
          if(col.gameObject.tag == "fuego")
          {
