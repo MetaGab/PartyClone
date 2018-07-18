@@ -14,7 +14,7 @@ public class MovimientoCir : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-			speed=1;
+			speed=2;
 		    startPos = transform.position;
 		
 	}
